@@ -1,6 +1,6 @@
 @font-face {
     font-family: googlesans;
-    src: url('ProductSans-Medium.ttf');
+    src: url('./ProductSans-Medium.ttf');
 }
 
 body{
