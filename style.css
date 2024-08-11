@@ -1,0 +1,40 @@
+@font-face {
+    font-family: googlesans;
+    src: url('ProductSans-Medium.ttf');
+}
+
+body{
+    background-color: #4895EF;
+}
+
+#center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    max-width: 75%;
+
+    background-color: #3A0CA3;
+    border-radius: 10px;
+    padding: 20px;
+    color: #F72585;
+    font-family: 'googlesans';
+}
+
+#encode-key-error, #decode-key-error{
+    display: none;
+    
+    padding: 7px;
+    padding-right: 9px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#encode-output, #decode-output{
+    max-width: 100%;
+    word-wrap: break-word;
+}

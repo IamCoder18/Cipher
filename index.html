@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav Cipher Encoder & Decoder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="center">
+        <h1 class="text-center"><b>Aarav Cipher Encoder & Decoder</b></h1>
+        <h2 class="mt-5">Encode</h2>
+        <form>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Text to Encode</span>
+                <input type="text" class="form-control" id="encode-text">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Key 1</span>
+                <input type="number" class="form-control" id="encode-key-1" value="0">
+                <span class="input-group-text">Key 2</span>
+                <input type="number" class="form-control" id="encode-key-2" value="0">
+            </div>
+            <p class="text-danger bg-light" id="encode-key-error">Both Keys must be between 0 and 26!</p>
+        </form>
+        <h3>Encoded Text: <span id="encode-output"></span></h3>
+        <h2 class="mt-5">Decode</h2>
+        <form>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Text to Decode</span>
+                <input type="text" class="form-control" id="decode-text">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Key 1</span>
+                <input type="number" class="form-control" id="decode-key-1" value="0">
+                <span class="input-group-text">Key 2</span>
+                <input type="number" class="form-control" id="decode-key-2" value="0">
+            </div>
+            <p class="text-danger bg-light" id="decode-key-error">Both Keys must be between 0 and 26!</p>
+        </form>
+        <h3>Decoded Text: <span id="decode-output"></span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
